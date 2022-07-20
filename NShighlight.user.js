@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auction color
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Colors ask and bis columns on the auctions page
 // @author       9003
 // @updateURL    https://github.com/jmikk/Highlighter/raw/main/NShighlight.user.js
@@ -21,7 +21,7 @@
 
 (function main() {
     'use strict';
-if (window.location.href.endsWith("auctions")){
+if (window.location.href.includes("auctions")){
 
     const sell = document.getElementsByClassName("cardprice_sell");
     const buy = document.getElementsByClassName("cardprice_buy");
