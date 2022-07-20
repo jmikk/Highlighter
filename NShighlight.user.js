@@ -4,6 +4,7 @@
 // @version      0.2
 // @description  Colors ask and bis columns on the auctions page
 // @author       9003
+// @updateURL    https://github.com/jmikk/Highlighter/raw/main/NShighlight.user.js
 // @match        https://www.nationstates.net/*/page=deck/show_trades=auctions
 // @match        https://www.nationstates.net/page=deck/show_trades=auctions
 // @match        https://www.nationstates.net/*/page=deck/show_market=auctions
